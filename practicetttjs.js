@@ -1,4 +1,5 @@
 let boxes = document.querySelectorAll(".box");
+
 let resetBtn = document.querySelector("#reset");
 let msg = document.querySelector(".winner");
 let turnX = true;
