@@ -4,8 +4,24 @@
 }
 
 body {
-    background-color: coral;
+    background: radial-gradient(circle at 30% 30%,
+            #9d582a 0%,
+            /* deep purple/blue */
+            #3c241b 40%,
+            /* dark purple */
+            #e77b45 70%,
+            /* indigo hue */
+            #0c0c0c 100%
+            /* nearly black at edges */
+        );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     text-align: center;
+}
+
+.title {
+    color: white;
 }
 
 .container {
@@ -31,10 +47,10 @@ body {
     border-radius: 1vmin;
     color: saddlebrown;
     border: none;
-    box-shadow: 5px 5px 20px ;
+    box-shadow: 5px 5px 20px;
     font-size: 8vmin;
     background-color: rgb(255, 255, 255);
-    
+
 }
 
 #reset {
@@ -44,7 +60,7 @@ body {
     border-radius: 10px;
     border: none;
     font-weight: bolder;
-    box-shadow: 5px 5px 20px ;
+    box-shadow: 5px 5px 20px;
 }
 
 .winner {
